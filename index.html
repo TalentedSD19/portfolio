@@ -492,7 +492,7 @@
       <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#publications">Writing</a></li>
-      <li><a class="nav-resume" href="https://drive.google.com/file/d/1LRizC6s0eQE0ZpHC_hgKMC7mdSaPI0-5/view?usp=sharing" target="_blank" rel="noopener">Résumé ↗</a></li>
+      <li><a class="nav-resume" href="https://drive.google.com/file/d/11Bx5B02geVkowKu2GGg3EsTr5WvTGa14/view?usp=sharing" target="_blank" rel="noopener">Résumé ↗</a></li>
       <li><a href="#contact" class="nav-cta">Get in touch</a></li>
     </ul>
     <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
@@ -507,7 +507,7 @@
   <a href="#projects">Projects</a>
   <a href="#publications">Writing</a>
   <a href="#skills">Skills</a>
-  <a href="https://drive.google.com/file/d/1LRizC6s0eQE0ZpHC_hgKMC7mdSaPI0-5/view?usp=sharing" target="_blank" rel="noopener">Résumé ↗</a>
+  <a href="https://drive.google.com/file/d/11Bx5B02geVkowKu2GGg3EsTr5WvTGa14/view?usp=sharing" target="_blank" rel="noopener">Résumé ↗</a>
   <a href="#contact">Contact</a>
 </div>
 
@@ -523,7 +523,7 @@
 
     <div class="hero-actions">
       <a href="#projects" class="btn btn-primary">See the work →</a>
-      <a href="https://drive.google.com/file/d/1LRizC6s0eQE0ZpHC_hgKMC7mdSaPI0-5/view?usp=sharing" target="_blank" rel="noopener" class="btn btn-resume">View résumé ↗</a>
+      <a href="https://drive.google.com/file/d/11Bx5B02geVkowKu2GGg3EsTr5WvTGa14/view?usp=sharing" target="_blank" rel="noopener" class="btn btn-resume">View résumé ↗</a>
       <a href="#contact" class="btn btn-ghost">Get in touch</a>
     </div>
 
@@ -610,9 +610,9 @@
           <div class="tl-role">AI Engineer Intern — Speech, Vision &amp; Frontend</div>
           <div class="tl-org">Coforge Ltd. · Remote</div>
           <ul>
-            <li>Developed a real-time speech pipeline for transcription, translation, speaker diarization, and emotion detection using Whisper, Vosk, and LLMs — cutting end-to-end latency by optimizing inference stages.</li>
+            <li>Developed a real-time speech pipeline for transcription, translation, speaker diarization, and emotion detection using OpenAI Whisper, Vosk, and LLMs — cutting end-to-end processing latency by optimizing model inference stages.</li>
             <li>Built an end-to-end computer vision pipeline, improving detection and classification accuracy through preprocessing and fine-tuning.</li>
-            <li>Delivered ReactJS UIs with real-time visualization, served by REST endpoints holding sub-200ms latency.</li>
+            <li>Delivered ReactJS UIs with real-time visualization, served by REST API endpoints holding sub-200ms latency.</li>
           </ul>
         </div>
       </div>
@@ -624,7 +624,7 @@
           <div class="tl-role">AI Engineer Intern — LLM &amp; Cybersecurity</div>
           <div class="tl-org">Cywreck · Remote</div>
           <ul>
-            <li>Engineered a hybrid RAG system using ChromaDB embeddings and semantic search to scan GitHub repos, flag static code vulnerabilities at 95.4% accuracy, extract the affected snippets, and generate fixes via few-shot prompting with Llama 3 and Gemma.</li>
+            <li>Engineered a hybrid RAG system using ChromaDB embeddings and semantic search to scan GitHub repos, detect static code vulnerabilities at 95.4% accuracy, extract the affected snippets, and generate fixes via few-shot prompt engineering with Llama 3 and Gemma.</li>
             <li>Built a scalable Flask + MongoDB backend serving low-latency LLM inference across 3+ concurrent demo environments.</li>
             <li>Led model evaluation of Llama 3 and Gemma across 10+ vulnerability categories; presented product demos to venture capitalists.</li>
           </ul>
@@ -652,7 +652,7 @@
         </div>
         <a class="proj-link" href="https://github.com/TalentedSD19/DataScientistOS" target="_blank" rel="noopener">View on GitHub ↗</a>
       </div>
-      <p class="proj-desc">A multi-agent, LLM-based data science platform inspired by Google's DS-STAR. LangGraph orchestrates planning, routing, backtracking, and automated debugging, so the system can go from a raw dataset to analysis, generated code, verified results, and a written report on its own. Generated code runs inside a Docker sandbox with CPU and memory limits and network isolation; tools are exposed over MCP behind a FastAPI + React interface.</p>
+      <p class="proj-desc">A multi-agent, LLM-based data science platform inspired by Google's DS-STAR. LangGraph orchestrates iterative planning, routing, backtracking, and automated debugging of generated code, so the system can go from a raw dataset to exploratory data analysis, generated code, verified results, and a written report on its own. Generated code runs inside a Docker sandbox with CPU and memory limits and network isolation; tools are exposed over MCP behind a FastAPI + React interface.</p>
       <div class="proj-io"><span class="in">IN: a raw dataset and a question</span><span>⟶</span><span class="out">OUT: verified analysis + written report</span></div>
       <div class="proj-stack">
         <span class="tag">LangGraph</span><span class="tag">OpenAI</span><span class="tag">MCP</span><span class="tag">Docker</span><span class="tag">FastAPI</span><span class="tag">ReactJS</span>
@@ -667,7 +667,7 @@
         </div>
         <a class="proj-link" href="https://youtu.be/Cptj18SKluQ?si=69VJH08oZw_Wodzl" target="_blank" rel="noopener">Watch demo ↗</a>
       </div>
-      <p class="proj-desc">Flex sensors and a gyroscope on an ESP32 capture ASL hand gestures and stream them over Bluetooth to a mobile app, where a stacked CatBoost ensemble — layered with SVM, Random Forest, and XGBoost over 5,000+ samples at 99.61% accuracy — classifies the sign, and Llama 3 (via Groq) cleans up the grammar before it's spoken aloud. Hosted on AWS EC2, and it works back the other way too, for two-way conversation.</p>
+      <p class="proj-desc">Flex sensors and a gyroscope on an ESP32 capture ASL hand gestures and stream them over Bluetooth to a mobile app, where sensor-signal feature engineering feeds a stacked CatBoost ensemble — layered with SVM, Random Forest, and XGBoost over 5,000+ samples at 99.61% accuracy — that classifies the sign, and Llama 3 (via the Groq API, through LangChain) cleans up the grammar before it's spoken aloud. Hosted on AWS EC2, with bidirectional voice/text communication so it works back the other way too.</p>
       <div class="proj-io"><span class="in">IN: flex-sensor + gyroscope reading</span><span>⟶</span><span class="out">OUT: spoken, grammar-corrected English</span></div>
       <div class="proj-stack">
         <span class="tag">ESP32</span><span class="tag">CatBoost</span><span class="tag">XGBoost</span><span class="tag">LangChain</span><span class="tag">Groq · Llama 3</span><span class="tag">Flask</span><span class="tag">AWS EC2</span>
@@ -749,7 +749,7 @@
       </div>
       <div class="skill-group reveal">
         <h4>GenAI &amp; LLMs</h4>
-        <div class="tags"><span class="tag">Agentic AI</span><span class="tag">RAG</span><span class="tag">Prompt Engineering</span><span class="tag">Embeddings</span><span class="tag">Semantic Search</span><span class="tag">MCP</span><span class="tag">LangChain</span><span class="tag">LangGraph</span><span class="tag">Ollama</span><span class="tag">OpenAI API</span><span class="tag">Llama 3</span><span class="tag">Gemini</span><span class="tag">Claude</span></div>
+        <div class="tags"><span class="tag">Agentic AI</span><span class="tag">LLMs</span><span class="tag">RAG</span><span class="tag">Prompt Engineering</span><span class="tag">Embeddings</span><span class="tag">Semantic Search</span><span class="tag">MCP</span><span class="tag">LangChain</span><span class="tag">LangGraph</span><span class="tag">LangSmith</span><span class="tag">Ollama</span><span class="tag">OpenAI API</span><span class="tag">Llama 3</span><span class="tag">Gemini</span><span class="tag">Claude</span></div>
       </div>
       <div class="skill-group reveal">
         <h4>Libraries</h4>
@@ -813,7 +813,7 @@
     <p class="reveal">I'm open to AI engineering roles and collaborations in agentic AI, LLMs, RAG, and computer vision — especially anything that has to leave the notebook and reach a real person.</p>
     <div class="contact-actions reveal">
       <a href="mailto:dattasoumyajit19@gmail.com" class="btn btn-primary">Email me →</a>
-      <a href="https://drive.google.com/file/d/1LRizC6s0eQE0ZpHC_hgKMC7mdSaPI0-5/view?usp=sharing" target="_blank" rel="noopener" class="btn btn-resume">View résumé ↗</a>
+      <a href="https://drive.google.com/file/d/11Bx5B02geVkowKu2GGg3EsTr5WvTGa14/view?usp=sharing" target="_blank" rel="noopener" class="btn btn-resume">View résumé ↗</a>
       <a href="https://www.linkedin.com/in/soumyajitdatta19/" target="_blank" rel="noopener" class="btn btn-ghost">Connect on LinkedIn</a>
     </div>
     <div class="contact-links reveal">
